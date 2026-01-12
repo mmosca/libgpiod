@@ -11,9 +11,6 @@
   "frameworks": "*",
   "build": {
     "includeDir": "include",
-    "srcDir": "lib",
-    "srcFilter": [
-      "-<uapi/*>"
-    ]
+    "srcDir": "lib"
   }
 }

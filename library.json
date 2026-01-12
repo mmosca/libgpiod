@@ -1,0 +1,19 @@
+{
+  "name": "libgpiod",
+  "version": "2.2.2",
+  "platforms": [ "linux_arm", "linux_i686", "linux_x86_64", "native"],
+  "description": "C library and tools for interacting with the linux GPIO character device.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmosca/libgpiod.git#v2.2.x-platformio"
+  },
+  "license": "Multiple licenses, see COPYING file",
+  "frameworks": "*",
+  "build": {
+    "includeDir": "include",
+    "srcDir": "lib",
+    "srcFilter": [
+      "-<uapi/*>"
+    ]
+  }
+}

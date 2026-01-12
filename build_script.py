@@ -1,3 +1,4 @@
 Import('env')
 
-env.Append(CPPDEFINES=["_GNU_SOURCE", ('GPIOD_VERSION_STR',str('"v2.2.x"'))])
+env.Append(CPPDEFINES=["_GNU_SOURCE"])
+env.Append(CPPFLAGS=['-DGPIOD_VERSION_STR=\"2.2.2\"']

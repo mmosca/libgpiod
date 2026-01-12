@@ -12,5 +12,7 @@
   "build": {
     "includeDir": "include",
     "srcDir": "lib"
+    "srcFilter": "+<*.c>"
+    "includeFilter": "+<*.h>"
   }
 }

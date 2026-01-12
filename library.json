@@ -13,6 +13,7 @@
     "includeDir": "include",
     "srcDir": "lib",
     "srcFilter": "+<*.c>",
-    "includeFilter": "+<*.h>"
+    "includeFilter": "+<*.h>",
+    "extraScript": "build_script.py"
   }
 }

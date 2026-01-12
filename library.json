@@ -11,8 +11,8 @@
   "frameworks": "*",
   "build": {
     "includeDir": "include",
-    "srcDir": "lib"
-    "srcFilter": "+<*.c>"
+    "srcDir": "lib",
+    "srcFilter": "+<*.c>",
     "includeFilter": "+<*.h>"
   }
 }
